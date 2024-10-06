@@ -22,7 +22,7 @@ while True:
         print(f"It feels like {feels_like}° C.")
         print(f"Today's high is {high}° C and today's low is {low}° C.")
 
-        choose = str(input("\nAny want check other location? (y/n):"))
+        choose = str(input("\nDo you want to check other location? (y/n):"))
 
         if choose.lower() == 'y':
           continue
